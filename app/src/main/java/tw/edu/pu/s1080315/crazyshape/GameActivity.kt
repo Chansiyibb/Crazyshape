@@ -58,7 +58,7 @@ class GameActivity : AppCompatActivity() {
 
         val image = TensorImage.fromBitmap(bitmap)
         /*
-        // Runs model inference and gets result.
+        //
         val outputs = model.process(image)
         val probability = outputs.probabilityAsCategoryList
         */
