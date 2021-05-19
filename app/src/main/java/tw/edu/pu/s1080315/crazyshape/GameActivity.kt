@@ -55,7 +55,7 @@ class GameActivity : AppCompatActivity() {
     fun classifyDrawing(bitmap : Bitmap) {
         val model = Shapes.newInstance(this)
 
-        // Creates inputs for reference.
+
         val image = TensorImage.fromBitmap(bitmap)
         /*
         // Runs model inference and gets result.
