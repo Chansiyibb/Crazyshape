@@ -67,7 +67,7 @@ class GameActivity : AppCompatActivity() {
         val outputs = model.process(image)
             .probabilityAsCategoryList.apply {
                 sortByDescending { it.score } // 排序，高匹配率優先
-            }.take(2)  //取最高的1個
+            }.take(1)  //取最高的1個
 
         var Result:String = ""
         for (output in outputs){
