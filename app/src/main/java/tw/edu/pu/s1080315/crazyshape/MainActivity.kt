@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "作者： (曾品翰)", Toast.LENGTH_SHORT).show()
 
-        imageButton.setOnLongClickListener{
+        imgNext.setOnLongClickListener{
             var it = Intent(this, GameActivity::class.java);
             startActivity(it)
             true
