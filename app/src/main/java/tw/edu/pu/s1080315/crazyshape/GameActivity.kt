@@ -23,7 +23,7 @@ class GameActivity : AppCompatActivity() {
             }
         })
 
-        btn1.setOnClickListener(object: View.OnClickListener{
+        btnback.setOnClickListener(object: View.OnClickListener{
             override fun onClick(p0: View?) {
                 finish()
             }
